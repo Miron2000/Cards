@@ -1,0 +1,12 @@
+@import 'UI.scss';
+@import 'webdesign.scss';
+@import 'development.scss';
+body {
+    background-color: #9789f9;
+    margin: 10%;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+}

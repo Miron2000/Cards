@@ -1,0 +1,92 @@
+.development {
+    background-color: #f2f0f9;
+    position: relative;
+    height: 503px;
+    width: 284px;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 16px;
+        .dollar {
+            font-family: 'Poiret One', cursive;
+            color: black;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .number {
+            font-family: 'Poiret One', cursive;
+            color: black;
+            font-size: 4rem;
+            margin-top: 1px;
+        }
+        .text {
+            font-family: 'Poiret One', cursive;
+            color: black;
+            font-size: 1.2rem;
+            margin-top: 48px;
+        }
+    }
+    h2 {
+        text-align: center;
+        font-family: 'Asap Condensed', sans-serif;
+        margin-top: -53px;
+        font-weight: 100;
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .circle {
+        background-color: white;
+        clip-path: circle(291px at bottom);
+        img {
+            margin-left: 133px;
+            margin-top: 16px;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            margin-left: 94px;
+            margin-top: 16px;
+            font-family: 'Asap Condensed', sans-serif;
+            line-height: 0.6;
+            font-size: 1.1rem;
+        }
+    }
+    .btn {
+        background-color: #6fcffb;
+        width: 170px;
+        height: 36px;
+        border: 2px solid #6fcffb;
+        border-radius: 19px;
+        position: relative;
+        margin-top: 35px;
+        margin-left: 57px;
+        &:hover {
+            border: 2px solid white;
+        }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            p {
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                font-size: 0.9rem;
+                font-weight: bolder;
+                text-transform: uppercase;
+                color: white;
+                letter-spacing: 1px;
+                margin: 10px 10px 10px 10px;
+            }
+        }
+    }
+    &:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}

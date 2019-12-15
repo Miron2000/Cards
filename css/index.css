@@ -1,0 +1,284 @@
+@charset "UTF-8";
+.ui {
+  background-color: #f2f0f9;
+  position: relative;
+  height: 503px;
+  width: 284px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out; }
+  .ui .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px; }
+    .ui .row .dollar {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 1.2rem;
+      margin-top: 10px; }
+    .ui .row .number {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 4rem;
+      margin-top: 1px; }
+    .ui .row .text {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 1.2rem;
+      margin-top: 48px; }
+  .ui h2 {
+    text-align: center;
+    font-family: 'Asap Condensed', sans-serif;
+    margin-top: -53px;
+    font-weight: 100;
+    font-size: 1.7rem; }
+  .ui .circle {
+    background-color: white;
+    clip-path: circle(291px at bottom); }
+    .ui .circle img {
+      margin-left: 121px;
+      margin-top: 16px; }
+    .ui .circle .column {
+      display: flex;
+      flex-direction: column;
+      margin-left: 94px;
+      margin-top: 16px;
+      font-family: 'Asap Condensed', sans-serif;
+      line-height: 0.6;
+      font-size: 1.1rem; }
+  .ui .btn {
+    background-color: #6fcffb;
+    width: 170px;
+    height: 36px;
+    border: 2px solid #6fcffb;
+    border-radius: 19px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 57px; }
+    .ui .btn:hover {
+      border: 2px solid white; }
+    .ui .btn a {
+      text-decoration: none;
+      cursor: pointer; }
+      .ui .btn a p {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        margin: 10px 10px 10px 10px; }
+  .ui:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+
+.webdesign {
+  background-color: #f2f0f9;
+  position: relative;
+  height: 547px;
+  width: 284px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out; }
+  .webdesign .img-text {
+    position: absolute;
+    right: 1px;
+    width: 57px; }
+  .webdesign h3 {
+    position: absolute;
+    right: 1px;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 16px;
+    margin-right: 24px;
+    font-weight: normal;
+    cursor: pointer; }
+    .webdesign h3:hover::after {
+      content: attr(data-title);
+      /* Выводим текст */
+      position: absolute;
+      /* Абсолютное позиционирование */
+      left: 20%;
+      top: 30%;
+      /* Положение подсказки */
+      z-index: 1;
+      /* Отображаем подсказку поверх других элементов */
+      background: rgba(255, 255, 230, 0.9);
+      /* Полупрозрачный цвет фона */
+      font-family: Arial, sans-serif;
+      /* Гарнитура шрифта */
+      font-size: 11px;
+      /* Размер текста подсказки */
+      padding: 20px 40px;
+      /* Поля */
+      border: 1px solid #333;
+      /* Параметры рамки */
+      border-radius: 16px; }
+  .webdesign .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px; }
+    .webdesign .row .dollar {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 1.2rem;
+      margin-top: 10px; }
+    .webdesign .row .number {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 4rem;
+      margin-top: 1px; }
+    .webdesign .row .text {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 1.2rem;
+      margin-top: 48px; }
+  .webdesign h2 {
+    text-align: center;
+    font-family: 'Asap Condensed', sans-serif;
+    margin-top: -53px;
+    font-weight: 100;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+  .webdesign .circle {
+    background-color: white;
+    clip-path: circle(298px at bottom); }
+    .webdesign .circle img {
+      margin-left: 121px;
+      margin-top: 16px; }
+    .webdesign .circle .column {
+      display: flex;
+      flex-direction: column;
+      margin-left: 71px;
+      margin-top: 16px;
+      font-family: 'Asap Condensed', sans-serif;
+      line-height: 0.6;
+      font-size: 1.1rem; }
+  .webdesign .btn {
+    background-color: #fd8d7b;
+    width: 170px;
+    height: 36px;
+    border: 2px solid #fd8d7b;
+    border-radius: 19px;
+    position: relative;
+    margin-top: 11px;
+    margin-left: 57px; }
+    .webdesign .btn:hover {
+      border: 2px solid white; }
+    .webdesign .btn a {
+      text-decoration: none;
+      cursor: pointer; }
+      .webdesign .btn a p {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        margin: 10px 10px 10px 10px; }
+  .webdesign .p-text {
+    color: darkgray;
+    text-align: center;
+    font-size: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 12px; }
+  .webdesign:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+
+.development {
+  background-color: #f2f0f9;
+  position: relative;
+  height: 503px;
+  width: 284px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out; }
+  .development .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px; }
+    .development .row .dollar {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 1.2rem;
+      margin-top: 10px; }
+    .development .row .number {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 4rem;
+      margin-top: 1px; }
+    .development .row .text {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 1.2rem;
+      margin-top: 48px; }
+  .development h2 {
+    text-align: center;
+    font-family: 'Asap Condensed', sans-serif;
+    margin-top: -53px;
+    font-weight: 100;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+  .development .circle {
+    background-color: white;
+    clip-path: circle(291px at bottom); }
+    .development .circle img {
+      margin-left: 133px;
+      margin-top: 16px; }
+    .development .circle .column {
+      display: flex;
+      flex-direction: column;
+      margin-left: 94px;
+      margin-top: 16px;
+      font-family: 'Asap Condensed', sans-serif;
+      line-height: 0.6;
+      font-size: 1.1rem; }
+  .development .btn {
+    background-color: #6fcffb;
+    width: 170px;
+    height: 36px;
+    border: 2px solid #6fcffb;
+    border-radius: 19px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 57px; }
+    .development .btn:hover {
+      border: 2px solid white; }
+    .development .btn a {
+      text-decoration: none;
+      cursor: pointer; }
+      .development .btn a p {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        margin: 10px 10px 10px 10px; }
+  .development:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+
+body {
+  background-color: #9789f9;
+  margin: 10%; }
+
+.center {
+  display: flex;
+  justify-content: space-around; }
